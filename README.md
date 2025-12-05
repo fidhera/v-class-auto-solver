@@ -14,17 +14,24 @@ V-Class Auto Solver adalah ekstensi browser yang dirancang untuk membantu mahasi
 
 ## Tangkapan Layar (Screenshots)
 
-Berikut adalah gambaran cara kerja ekstensi ini:
+Berikut adalah gambaran visual cara kerja ekstensi V-Class Auto Solver:
 
 ### 1. Tampilan Floating Menu
-*(Saat Anda memblokir teks soal dan muncul menu "Cepat | Pintar" di sini. Contoh gambar: `<img width="1053" height="405" alt="Screenshot 2025-12-05 031935" src="https://github.com/user-attachments/assets/d29c485e-4d8a-4661-965e-836205ddc377" />`)*
+Saat Anda memblokir teks soal pada halaman ujian, menu pilihan mode "Cepat | Pintar" akan muncul secara otomatis di dekat kursor.
+![Tampilan Floating Menu](docs/tampilan_menu.png)
 
-### 2. Analisis Soal Bergambar
-*(Saat ekstensi mendeteksi gambar dan memberikan jawaban pada soal visual di sini. Contoh gambar: `<img width="1035" height="579" alt="Screenshot 2025-12-04 161801" src="https://github.com/user-attachments/assets/794aa5b4-4029-47a9-8a62-f73a7f5a3b82" />`)*
+### 2. Analisis Soal Bergambar (Multimodal)
+Ekstensi mampu mendeteksi soal yang mengandung elemen visual (diagram/gambar) dan memberikan analisis jawaban yang relevan.
+![Analisis Soal Bergambar](docs/soal_bergambar.png)
 
-### 3. Penanganan Opsi Serupa
-*(Saat ekstensi memilih jawaban yang benar meskipun ada opsi dengan teks mirip di sini. Contoh kasus: `<img width="1052" height="405" alt="Screenshot 2025-12-05 031518" src="https://github.com/user-attachments/assets/1bc3fab8-e0af-4d10-9b79-f36e0b77e9cc" />
-`)*
+### 3. Penanganan Opsi Serupa & Highlight Jawaban
+AI mampu menganalisis konteks untuk memilih jawaban yang paling tepat secara presisi, meskipun terdapat opsi lain dengan kalimat yang mirip. Jawaban terpilih akan diberi highlight hijau.
+![Penanganan Opsi Serupa](docs/penanganan_opsi.png)
+
+### 4. Notifikasi Jawaban Manual
+Jika sistem tidak dapat menemukan tombol radio yang sesuai untuk diklik secara otomatis (misalnya karena perbedaan format teks), jawaban dari AI akan ditampilkan melalui popup notifikasi agar pengguna dapat memilihnya secara manual.
+![Notifikasi Jawaban Manual](docs/tidak_terjawab.png)
+![Notifikasi Jawaban Manual](docs/popup_manual.png)
 
 ---
 
@@ -120,3 +127,4 @@ Harap perhatikan poin-poin penting berikut sebelum menggunakan alat ini:
 1.  **Keterbatasan AI:** Alat ini menggunakan *Large Language Model* (LLM) yang memiliki kemungkinan untuk melakukan kesalahan, halusinasi, atau memberikan jawaban yang tidak akurat. Hasil analisis AI **tidak menjamin kebenaran 100%**. Pengguna disarankan untuk selalu memverifikasi jawaban dengan pengetahuan pribadi atau referensi pembelajaran dari dosen.
 2.  **Tujuan Edukasi:** Proyek ini dikembangkan murni untuk tujuan edukasi dalam pemrograman dan riset AI. Alat ini tidak dimaksudkan untuk digunakan sebagai sarana kecurangan (*cheating*) dalam ujian akademik.
 3.  **Tanggung Jawab Pengguna:** Pengembang tidak bertanggung jawab atas segala konsekuensi yang timbul akibat penggunaan alat ini, termasuk pada sanksi akademik, pelanggaran kode etik institusi, atau kesalahan nilai akibat jawaban AI yang tidak tepat. Pengguna diharapkan menggunakan alat ini secara bijak, etis, dan bertanggung jawab.
+
