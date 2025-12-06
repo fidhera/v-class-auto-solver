@@ -2,6 +2,18 @@
 
 V-Class Auto Solver adalah ekstensi browser yang dirancang untuk membantu mahasiswa menganalisis soal pilihan ganda pada platform V-Class Gunadarma secara efisien menggunakan teknologi kecerdasan buatan (AI) dari Google Gemini. Ekstensi ini mendukung analisis teks maupun soal visual (gambar) dan dapat mengeksekusi jawaban secara otomatis.
 
+---
+
+## Disclaimer & Batasan Tanggung Jawab
+
+Harap perhatikan poin-poin penting berikut sebelum menggunakan alat ini:
+
+1.  **Keterbatasan AI:** Alat ini menggunakan *Large Language Model* (LLM) yang memiliki kemungkinan untuk melakukan kesalahan, halusinasi, atau memberikan jawaban yang tidak akurat. Hasil analisis AI **tidak menjamin kebenaran 100%**. Pengguna disarankan untuk selalu memverifikasi jawaban dengan pengetahuan pribadi atau referensi pembelajaran dari dosen.
+2.  **Tujuan Edukasi:** Proyek ini dikembangkan murni untuk tujuan edukasi dalam pemrograman dan riset AI. Alat ini tidak dimaksudkan untuk digunakan sebagai sarana kecurangan (*cheating*) dalam ujian akademik.
+3.  **Tanggung Jawab Pengguna:** Pengembang tidak bertanggung jawab atas segala konsekuensi yang timbul akibat penggunaan alat ini, termasuk pada sanksi akademik, pelanggaran kode etik institusi, atau kesalahan nilai akibat jawaban AI yang tidak tepat. Pengguna diharapkan menggunakan alat ini secara bijak, etis, dan bertanggung jawab.
+
+---
+
 ## Fitur Utama
 
 1.  **Mode Cepat (Flash):** Menggunakan model `Gemini 2.0 Flash-Lite` untuk menjawab soal berbasis teks pendek dengan respon instan.
@@ -120,11 +132,5 @@ Jika ekstensi tidak berjalan atau muncul pesan error, periksa hal berikut:
 
 ---
 
-## Disclaimer & Batasan Tanggung Jawab
 
-Harap perhatikan poin-poin penting berikut sebelum menggunakan alat ini:
-
-1.  **Keterbatasan AI:** Alat ini menggunakan *Large Language Model* (LLM) yang memiliki kemungkinan untuk melakukan kesalahan, halusinasi, atau memberikan jawaban yang tidak akurat. Hasil analisis AI **tidak menjamin kebenaran 100%**. Pengguna disarankan untuk selalu memverifikasi jawaban dengan pengetahuan pribadi atau referensi pembelajaran dari dosen.
-2.  **Tujuan Edukasi:** Proyek ini dikembangkan murni untuk tujuan edukasi dalam pemrograman dan riset AI. Alat ini tidak dimaksudkan untuk digunakan sebagai sarana kecurangan (*cheating*) dalam ujian akademik.
-3.  **Tanggung Jawab Pengguna:** Pengembang tidak bertanggung jawab atas segala konsekuensi yang timbul akibat penggunaan alat ini, termasuk pada sanksi akademik, pelanggaran kode etik institusi, atau kesalahan nilai akibat jawaban AI yang tidak tepat. Pengguna diharapkan menggunakan alat ini secara bijak, etis, dan bertanggung jawab.
 
